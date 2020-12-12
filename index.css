@@ -1,0 +1,362 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#topbar{
+    width: 100%;
+    height: 77px;
+    background-color: white;
+    padding: 0px 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 12px #ccc;    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+#logo{
+    width: 40px;
+
+}
+  .menu-item{
+      font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+margin-right: 24px;
+}
+.btn-primary{
+    background-color: rgb(170, 210,54);
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-transform: uppercase; 
+}
+
+.menu-item i{
+    margin-left: 4px;
+}
+/* landing section  start*/
+#landing-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+   background-size: cover;
+   background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.headings{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.description{
+width: 100%;
+max-width: 1100px;
+font-size: 14px;
+letter-spacing: 0.5px;
+font-weight: 400;
+color: #8b8b99;
+margin-top: 32px; 
+}
+/* landing section  end*/
+
+/* step section start */
+#step-section{
+    width: 100%;
+    display: flex;
+color: white;
+}
+#step-section div{
+width: 25%;
+text-align: center;
+padding: 112px 48px;
+}
+.step-icon{
+    font-size: 96px;
+}
+
+#step-1{
+    background-color: #5acda6;
+}
+#step-2{
+    background-color: #91ac41;
+}#step-3{
+    background-color: #e4b476;
+}#step-4{
+    background-color: #f69dad;
+}
+
+
+/* step section ends */
+
+/* feature section start */
+.our-vegan{
+    width: 100%;
+    font-size: 60px;
+    font-weight: 900px;
+    margin-bottom: 0;
+    
+text-align: center;
+}
+
+#tag-line{
+    margin-top: 5px;
+    width: 100%;
+   display: flex;
+   color: #8b8b99;
+   align-items: center;
+   justify-content: center;
+    font-weight: 400;
+}
+.feature-tagline{
+    color:#8b8b99;
+}
+
+.feature-icon{
+    font-size: 56px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    align-items: center;
+}
+#feature-section div{
+    text-align: center;
+    padding: 50px 48px;
+}
+#mainsection1{
+    /* box-sizing: border-box; */
+    display: flex;
+    
+    /* width:100% */
+}
+#feature-tagline{
+    color: #8b8b99;
+}
+/*  feature section ends */
+/* profile-section starts */
+.profile-pic{
+    height: 70px;
+    display: flex;
+    align-items: center;
+  
+    border-radius: 50%; 
+  padding: 10px 110px;
+}
+
+#tag-line3{
+    /* width: 25%; */
+    color: #8b8b99;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   margin: 0;
+   padding: 1px 1px;
+
+
+   
+}
+#profile-section div{
+     text-align: center;
+    padding: 50px 48px;
+}
+#mainsection2{
+    display: flex;
+}
+#vero{
+    padding: 1px 1px;
+    margin: 0;
+}
+
+/* profile section ends */
+
+/* follow section starts */
+#follow{
+    display: flex;
+}
+#strawberry-pic{
+    height: 600px;
+}
+#strawberry-pic2{
+    height: 550px; 
+    padding: 54px 0 50px 24px;
+       align-items: right;
+}
+
+#image-container{
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    /* background-position: left; */
+    padding: 0px 80px;
+    background-size: cover;
+}
+#follow-us{
+    width: 100%;
+    font-size: 60px;
+    text-align: right;
+    font-weight: 700px;
+    
+}
+
+    #tag-line4{
+       
+       /* display: flex;
+       text-align: center;
+       justify-content: center; */
+       text-align: left;
+    
+}
+#input-email{
+   
+   display: flex;
+   padding: 8px ;
+   margin: 50px;
+   color: #8b8b99;
+   justify-content: center;
+   }
+   #button-subscribe{
+       background-color: #f69dad;
+       color: #fff;
+       font-weight: 300px;
+       display: flex;
+       padding: 9px 50px;
+       margin:50px;
+       justify-content: center;
+       outline: none;
+       border: none;
+   }
+
+/* follow section ends */
+
+/* data section starts */
+.data-heading{
+    width: 70%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px 50px 0px 100px;
+    /* margin-top: 50px; */
+       /* margin-left: 100px; */
+    
+}
+.data-tagline{
+    width: 70%;
+    font-size: 15px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+        font-weight: 900px;
+    text-align: center;
+    color:#57e3b5;;
+    padding: 5px 50px 0px 100px;
+    /* margin-left: 100px; */
+
+}
+
+#datasection{
+   
+    display: flex;
+}
+/* data section ends */
+/* address section starts */
+#meet-our-teams{
+    font-family: 'Langar', cursive;
+    color: #91ac41;
+    padding:  50px 10px 5px 70px;
+    margin-bottom: 0;
+}
+#address-heading{
+    font-size: 40px; width: 70%;
+    padding:  5px 10px 5px 70px;
+    margin-top: 0;
+    /* display: flex; */
+    /* justify-content: left; */
+    font-weight: 500px;
+}
+#store{
+    margin: 10px 10px 5px 70px;
+    
+}
+
+#address-details{
+    width: 80%;
+    color: #8b8b99;
+    /* margin: 70px; */
+    padding: 0px 10px 10px 70px;
+    display: flex;
+    justify-content: left;
+}
+#address-details2{
+    width: 40%;
+    color: #8b8b99;
+    /* margin: 70px; */
+    /* padding: 0px 10px 10px 70px; */
+    display: flex;
+    margin: 10px 10px 5px 70px;
+    justify-content: left;
+}
+
+#touch div{
+    text-align: right;
+}
+#submit-button{
+    background-color: rgb(170, 210, 54);
+    color: white;
+    font-weight: 400px;
+    padding: 10px 15px;
+    width: 20%;
+    margin-left: 6px;
+    border: none;
+    border-radius: 10px;
+}
+.input{
+    color: #8b8b99;
+    padding:  15px 20px;
+    width: 100%;
+    margin: 5px;
+}
+#input-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+   
+}
+#getintouch{
+    display: flex;
+    
+}
+/* address section ends */
+/* ending copyright starts */
+
+#copyright{
+    width: 100%;
+    height:55px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 1px 2px #91ac41;
+}
+
+
+/* ending copyright ends */
